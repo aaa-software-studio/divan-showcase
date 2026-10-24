@@ -3,9 +3,9 @@
 
 [فارسی](#فارسی) · [English](#english) · [Gallery / گالری](#gallery) · [Telegram / تلگرام](https://t.me/DivanYar_bot)
 
-**App status:** Private Release Preview · **نسخهٔ اپ:** پیش‌نمایش خصوصی  
+**App status:** Public Release Preview · **نسخهٔ اپ:** پیش‌نمایش عمومی  
 **Current candidate:** `0.3.0-preview.2` · build `10` · Android `8.0+`  
-**Public APK download:** Not available yet · دانلود عمومی هنوز فعال نیست
+**Download / دانلود:** [Signed APK · Release Preview](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2) · 130.22 MiB
 
 Developed by **AAA Software Studio** from the creator's idea with AI assistance.
 
@@ -45,9 +45,9 @@ Real phone screenshots supplied by the creator from an earlier installed build. 
 
 ### آیا اپ قابل دانلود است؟
 
-نسخهٔ فعلی **<code dir="ltr">0.3.0-preview.2</code>** با شمارهٔ ساخت **۱۰**، یک پیش‌نمایش خصوصی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
+نسخهٔ فعلی **<code dir="ltr">0.3.0-preview.2</code>** با شمارهٔ ساخت **۱۰**، یک پیش‌نمایش عمومی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
 
-نسخهٔ جدید با نام نمایشی **Divan** روی گوشی سازنده آزمایش و عملکرد آن توسط او تأیید شده است. پیش‌نویس انتشار در حال آماده‌سازی است؛ تعیین شرایط توزیع برنامه و ثبت وضعیت بازنشر مجموعهٔ اشعار هنوز باقی است. **لینک دانلود عمومی هنوز فعال نیست.**
+نسخهٔ جدید با نام نمایشی **Divan** روی گوشی سازنده آزمایش و عملکرد آن توسط او تأیید شده است. [دانلود APK امضاشده و راهنمای نصب](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2). این نسخه پیش‌نمایش است و انتشار آن مجوز آزاد برای برنامه یا تمام متون ادبی اعطا نمی‌کند.
 
 تصاویر این صفحه از نسخهٔ قبلیِ نصب‌شده روی گوشی تهیه شده‌اند و ظاهر واقعی اپ را نشان می‌دهند. تجربهٔ موفق نسخهٔ قبلی، جای آزمون نسخهٔ جدید را نمی‌گیرد.
 
@@ -71,7 +71,7 @@ Real phone screenshots supplied by the creator from an earlier installed build. 
 
 ### دربارهٔ این پروژه
 
-دیوان از ایدهٔ سازنده و با کمک هوش مصنوعی، در مجموعهٔ **AAA Software Studio** توسعه یافته است. این مخزن، معرفی محصول و گالری رابط آن را در اختیار شما می‌گذارد؛ فایل نصب، سورس خصوصی، دیتابیس اشعار و فایل‌های اجرایی ربات در آن منتشر نشده‌اند.
+دیوان از ایدهٔ سازنده و با کمک هوش مصنوعی، در مجموعهٔ **AAA Software Studio** توسعه یافته است. این مخزن، معرفی محصول و گالری رابط آن را در اختیار شما می‌گذارد؛ APK در بخش Releases ارائه می‌شود؛ سورس خصوصی، دیتابیس جداگانه و فایل‌های اجرایی ربات منتشر نشده‌اند.
 
 </div>
 
@@ -85,11 +85,11 @@ Built with **Kotlin, Jetpack Compose, Room/SQLite and DataStore**. The reviewed 
 
 ### Release Preparation
 
-The current private candidate is **0.3.0-preview.2, build 10**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
+The current public Preview is **0.3.0-preview.2, build 10**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
 
 Review checks confirmed the supplied preview.2 APK/source archive hashes against the developer report, source ZIP integrity, the app label Divan and version metadata. Signature matching and alignment checks are recorded in the developer report; they were not independently rerun during this review. They are not a full security audit or proof of source-to-binary reproducibility.
 
-The creator reports successful installation and testing of this Release candidate on their phone. This is creator-reported testing, not an independent cross-device acceptance test. Literary review, poetry redistribution documentation and application distribution terms remain pending. **A public APK download is not available yet.**
+The creator reports successful installation and testing of this Release candidate on their phone. This is creator-reported testing, not an independent cross-device acceptance test. Literary review and complete poetry-rights documentation remain incomplete. This release does not grant a blanket license for literary texts. [Download the signed Preview APK](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2).
 
 ### Content Attribution
 
@@ -103,8 +103,8 @@ The bot is presented separately from the Android app. Earlier demonstrations inc
 
 ## Repository Scope / محدودهٔ مخزن
 
-This repository contains product documentation and a screenshot gallery only. Application APKs, development source, poetry databases, private review reports, signing material and bot operational files are not distributed here. No open-source license for the application or bundled literary assets is granted by this showcase.
+This repository contains product documentation and a screenshot gallery. The signed APK is in Releases. Private app source, standalone databases, private reports, signing material and bot files are not distributed here. Automatic Source code archives contain only this showcase, not the private Android source. No open-source license for the application or bundled literary assets is granted by this showcase.
 
-<p dir="rtl" align="right">این مخزن به معرفی دیوان و نمایش رابط آن اختصاص دارد. فایل نصب، سورس خصوصی، دیتابیس اشعار و فایل‌های ربات در آن منتشر نشده‌اند.</p>
+<p dir="rtl" align="right">این مخزن، معرفی و گالری دیوان است؛ APK در Releases ارائه می‌شود. فایل‌های خودکار Source code فقط همین مخزن معرفی را شامل می‌شوند، نه سورس خصوصی اپ. کلید امضا و فایل‌های ربات منتشر نشده‌اند.</p>
 
 Built by [AAA Software Studio](https://github.com/aaa-software-studio).
