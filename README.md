@@ -4,7 +4,7 @@
 [فارسی](#فارسی) · [English](#english) · [Gallery / گالری](#gallery) · [Telegram / تلگرام](https://t.me/DivanYar_bot)
 
 **App status:** Private Release Preview · **نسخهٔ اپ:** پیش‌نمایش خصوصی  
-**Current candidate:** `0.3.0-preview.1` · build `9` · Android `8.0+`  
+**Current candidate:** `0.3.0-preview.2` · build `10` · Android `8.0+`  
 **Public APK download:** Not available yet · دانلود عمومی هنوز فعال نیست
 
 Developed by **AAA Software Studio** from the creator's idea with AI assistance.
@@ -41,15 +41,19 @@ Real phone screenshots supplied by the creator from an earlier installed build. 
 - **اشتراک شعر:** کپی متن و استفاده از امکان اشتراک‌گذاری متن یا تصویر شعر.
 - **معنی و تفسیر:** توضیحات همراه بخشی از آثار؛ این محتوا هنوز در حال بازبینی ادبی است.
 
-این امکانات در نسخهٔ موجود پیاده‌سازی شده‌اند، اما آزمون عملی همهٔ بخش‌ها روی نسخهٔ Release جدید هنوز تکمیل نشده است. برای تفسیرها نیز پوشش یا صحت کامل ادعا نمی‌کنیم.
+سازنده، نصب و آزمون نسخهٔ جدید روی گوشی خود را موفق گزارش کرده است. این تأیید، آزمون سازگاری با همهٔ دستگاه‌ها نیست. برای تفسیرها نیز پوشش یا صحت کامل ادعا نمی‌کنیم.
 
 ### آیا اپ قابل دانلود است؟
 
-نسخهٔ فعلی **<code dir="ltr">0.3.0-preview.1</code>** با شمارهٔ ساخت **۹**، یک پیش‌نمایش خصوصی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
+نسخهٔ فعلی **<code dir="ltr">0.3.0-preview.2</code>** با شمارهٔ ساخت **۱۰**، یک پیش‌نمایش خصوصی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
 
-پیش از دانلود عمومی، تست همین نسخه روی دستگاه، بازبینی محتوا و تعیین وضعیت مجوز اشعار و تصاویر باید تکمیل شوند. **لینک دانلود عمومی هنوز فعال نیست.**
+نسخهٔ جدید با نام نمایشی **Divan** روی گوشی سازنده آزمایش و عملکرد آن توسط او تأیید شده است. پیش‌نویس انتشار در حال آماده‌سازی است؛ تعیین شرایط توزیع برنامه و ثبت وضعیت بازنشر مجموعهٔ اشعار هنوز باقی است. **لینک دانلود عمومی هنوز فعال نیست.**
 
 تصاویر این صفحه از نسخهٔ قبلیِ نصب‌شده روی گوشی تهیه شده‌اند و ظاهر واقعی اپ را نشان می‌دهند. تجربهٔ موفق نسخهٔ قبلی، جای آزمون نسخهٔ جدید را نمی‌گیرد.
+
+### سازنده و منبع اشعار
+
+طبق اعلام سازنده، طراحی و دیگر محتوای اختصاصی دیوان متعلق به اوست و متن اشعار از پروژهٔ گنجور دریافت شده است. [مخزن رسمی گنجور رومیزی](https://github.com/ganjoor/desktop) و [توضیحات گنجور دربارهٔ داده‌ها و حقوق آثار](https://ganjoor.net/faq) برای ارجاع معرفی می‌شوند؛ تطابق دقیق فایل دیتابیس دیوان با یک انتشار مشخص از این مخزن هنوز مستند نشده است. مجوز کد گنجور به‌تنهایی مجوز تمام متون داخل دیتابیس محسوب نمی‌شود.
 
 ### استفادهٔ آفلاین و اطلاعات شما
 
@@ -81,11 +85,15 @@ Built with **Kotlin, Jetpack Compose, Room/SQLite and DataStore**. The reviewed 
 
 ### Release Preparation
 
-The current private candidate is **0.3.0-preview.1, build 9**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
+The current private candidate is **0.3.0-preview.2, build 10**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
 
-Independent package checks confirmed hashes, archive integrity, unchanged APK content after signing and matching bundled assets between the candidate and supplied source. They are not a full security audit or proof of source-to-binary reproducibility.
+Review checks confirmed the supplied preview.2 APK/source archive hashes against the developer report, source ZIP integrity, the app label Divan and version metadata. Signature matching and alignment checks are recorded in the developer report; they were not independently rerun during this review. They are not a full security audit or proof of source-to-binary reproducibility.
 
-The creator reports successful use of an earlier Debug build. The new Release candidate still requires device acceptance checks, literary review, content/image rights documentation and application licensing decisions. **A public APK download is not available yet.**
+The creator reports successful installation and testing of this Release candidate on their phone. This is creator-reported testing, not an independent cross-device acceptance test. Literary review, poetry redistribution documentation and application distribution terms remain pending. **A public APK download is not available yet.**
+
+### Content Attribution
+
+The creator states that Divan's design and other original assets are their own; poetry texts were obtained from Ganjoor. See the [official Ganjoor Desktop repository](https://github.com/ganjoor/desktop) and [Ganjoor's data and rights guidance](https://ganjoor.net/faq). The precise bundled database snapshot has not yet been matched to a specific upstream release. The software license does not establish redistribution rights for every literary text.
 
 ### Telegram
 
