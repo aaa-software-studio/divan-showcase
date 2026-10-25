@@ -3,9 +3,9 @@
 
 [فارسی](#فارسی) · [English](#english) · [Gallery / گالری](#gallery) · [Telegram / تلگرام](https://t.me/DivanYar_bot)
 
-**App status:** Public Release Preview · **نسخهٔ اپ:** پیش‌نمایش عمومی  
-**Current candidate:** `0.3.0-preview.2` · build `10` · Android `8.0+`  
-**Download / دانلود:** [Signed APK · Release Preview](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2) · 130.22 MiB
+**App status:** Public Release · **نسخهٔ اپ:** نسخهٔ عمومی  
+**Current release:** `0.3.1` · build `12` · Android `8.0+`  
+**Download / دانلود:** [Signed Android APK](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.1) · 110.05 MiB
 
 Developed by **AAA Software Studio** from the creator's idea with AI assistance.
 
@@ -41,13 +41,13 @@ Real phone screenshots supplied by the creator from an earlier installed build. 
 - **اشتراک شعر:** کپی متن و استفاده از امکان اشتراک‌گذاری متن یا تصویر شعر.
 - **معنی و تفسیر:** توضیحات همراه بخشی از آثار؛ این محتوا هنوز در حال بازبینی ادبی است.
 
-سازنده، نصب و آزمون نسخهٔ جدید روی گوشی خود را موفق گزارش کرده است. این تأیید، آزمون سازگاری با همهٔ دستگاه‌ها نیست. برای تفسیرها نیز پوشش یا صحت کامل ادعا نمی‌کنیم.
+سازنده، آزمون نسخهٔ پیشین را روی گوشی و تبلت موفق گزارش کرده است. نسخهٔ ۰٫۳٫۱ شامل بازبینی مجموعهٔ محتوایی و به‌روزرسانی کتابخانه است؛ این گزارش به معنی آزمون مستقل همهٔ دستگاه‌ها نیست. برای تفسیرها نیز پوشش یا صحت کامل ادعا نمی‌کنیم.
 
 ### آیا اپ قابل دانلود است؟
 
-نسخهٔ فعلی **<code dir="ltr">0.3.0-preview.2</code>** با شمارهٔ ساخت **۱۰**، یک پیش‌نمایش عمومی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
+نسخهٔ فعلی **<code dir="ltr">0.3.1</code>** با شمارهٔ ساخت **۱۲**، یک پیش‌نمایش عمومی برای **اندروید ۸ به بالا** است. فایل Release امضا شده و بررسی‌های فنی بسته انجام شده‌اند.
 
-نسخهٔ جدید با نام نمایشی **Divan** روی گوشی سازنده آزمایش و عملکرد آن توسط او تأیید شده است. [دانلود APK امضاشده و راهنمای نصب](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2). این نسخه پیش‌نمایش است و انتشار آن مجوز آزاد برای برنامه یا تمام متون ادبی اعطا نمی‌کند.
+نسخهٔ ۰٫۳٫۱ با نام نمایشی **Divan** و بستهٔ نصب کم‌حجم‌تر منتشر شده است. [دانلود APK امضاشده و راهنمای نصب](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.1). انتشار این نسخه مجوز آزاد برای برنامه یا تمام متون ادبی اعطا نمی‌کند.
 
 تصاویر این صفحه از نسخهٔ قبلیِ نصب‌شده روی گوشی تهیه شده‌اند و ظاهر واقعی اپ را نشان می‌دهند. تجربهٔ موفق نسخهٔ قبلی، جای آزمون نسخهٔ جدید را نمی‌گیرد.
 
@@ -83,13 +83,13 @@ Divan is an Android Persian poetry reader with an offline library and a right-to
 
 Built with **Kotlin, Jetpack Compose, Room/SQLite and DataStore**. The reviewed source manifest does not request Internet permission. Android sharing passes selected content to the chosen destination app, whose own policies apply.
 
-### Release Preparation
+### Current Release
 
-The current public Preview is **0.3.0-preview.2, build 10**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
+The current public release is **0.3.1, build 12**, for Android 8.0+. A Release APK has been signed locally; the developer's report records signature validation and 16 KiB alignment checks.
 
-Review checks confirmed the supplied preview.2 APK/source archive hashes against the developer report, source ZIP integrity, the app label Divan and version metadata. Signature matching and alignment checks are recorded in the developer report; they were not independently rerun during this review. They are not a full security audit or proof of source-to-binary reproducibility.
+Review checks confirmed the supplied 0.3.1 APK/source archive hashes against the developer report, source ZIP integrity, the app label Divan and version metadata. Signature matching and alignment checks are recorded in the developer report; they were not independently rerun during this review. They are not a full security audit or proof of source-to-binary reproducibility.
 
-The creator reports successful installation and testing of this Release candidate on their phone. This is creator-reported testing, not an independent cross-device acceptance test. Literary review and complete poetry-rights documentation remain incomplete. This release does not grant a blanket license for literary texts. [Download the signed Preview APK](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.0-preview.2).
+The creator reports successful phone and tablet tests of the preceding version. Version 0.3.1 refreshes the library content and includes migration for existing installations; computer-based migration checks do not constitute independent Android device testing. Literary review and complete poetry-rights documentation remain incomplete. This release does not grant a blanket license for literary texts. [Download the signed APK](https://github.com/aaa-software-studio/divan-showcase/releases/tag/v0.3.1).
 
 ### Content Attribution
 
